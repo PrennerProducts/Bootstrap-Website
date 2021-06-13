@@ -1,0 +1,59 @@
+/* Allgemein */
+
+body {
+    font-family: "Roboto" "sans-serif"
+}
+
+
+.limegreen{
+    color: limegreen;
+}
+
+.navbar, 
+.carousel {
+    border-bottom: 2px solid #8888;
+}
+/* Naviagation */
+
+.nav-link{
+    cursor: pointer;
+}
+.nav-link :active, 
+.nav-link:hover{
+    color: limegreen !important;
+}
+
+.icon-link{
+    color: limegreen
+}
+.icon-link:active,
+.icon-link:hover svg {
+    color:white;
+}
+
+
+/*  Slider  */
+.slider-image{
+width: 100vw;
+height: 70vh;
+background-position: center;
+background-size: cover;
+}
+
+/*  Projekte  */
+
+.card-image{
+    
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Über Uns  */
+.about-image{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
