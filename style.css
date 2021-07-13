@@ -38,10 +38,18 @@ width: 100vw;
 height: 70vh;
 background-position: center;
 background-size: cover;
+
 }
 
 /*  Projekte  */
 
+.card-body{
+    background-color: limegreen;
+ 
+}
+.card border{
+    color:#888
+}
 .card-image{
     
     height: 500px;
@@ -49,11 +57,31 @@ background-size: cover;
     background-size: cover;
 }
 
-/* Über Uns  */
-.about-image{
+@media (max-width: 901px){
+    .card-group {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+
+
+/* WhoAmI  */
+.lukas-rund-image{
     width: 280px;
     height: 280px;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
+    
+}
+
+/* Footer  */
+.footer {
+    font-family: Sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    border top: 1px solid  #888;
+
+
+
 }
