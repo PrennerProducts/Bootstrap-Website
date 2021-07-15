@@ -1,7 +1,8 @@
 /* Allgemein */
 
 body {
-    font-family: "Roboto" "sans-serif"
+    font-family: "Roboto" "sans-serif";
+    
 }
 
 
@@ -31,15 +32,32 @@ body {
     color:white;
 }
 
+/*Megamenü*/
+
+
+.megamenue{
+    position: absolute;
+    z-index: 1000000;
+
+   
+    
+}
+
 
 /*  Slider  */
+
+
+
 .slider-image{
 width: 100vw;
 height: 70vh;
 background-position: center;
-background-size: cover;
+background-size:cover;
+
 
 }
+
+
 
 /*  Projekte  */
 
