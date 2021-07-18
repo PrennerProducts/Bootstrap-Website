@@ -21,6 +21,10 @@ h5{
 }
 /* Naviagation */
 
+
+.navbar{
+    border-bottom: 2px solid #8888;
+}
 .nav-link{
     cursor: pointer;
 
@@ -33,11 +37,26 @@ h5{
 .icon-link{
     color: limegreen
 }
+
 .icon-link:active,
 .icon-link:hover svg {
     color:white;
 }
 
+
+.logo1:active,
+.logo1:hover {
+color: white;
+}
+
+.logo2:active,
+.logo2:hover {
+color: limegreen;
+}
+.logo3:active,
+.logo3:hover {
+color: white;
+}
 
 /*Megamenü*/
 
@@ -48,6 +67,8 @@ h5{
     position: fixed;
     left: 28%;
     z-index: 100000000;
+    background-color: #444444;
+   
 }
 
 
