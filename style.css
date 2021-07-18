@@ -61,15 +61,22 @@ color: white;
 /*Megamenü*/
 
 
-
-
-.row {
-    position: fixed;
-    left: 28%;
-    z-index: 100000000;
-    background-color: #444444;
-   
+.mega-link:active,
+.mega-link:hover {
+color: limegreen;
 }
+
+
+.mega {
+   
+    position: fixed;
+   z-index: 100000000;
+    background-color: white;
+  /*  border-left: 2px solid #8888;
+    border-right: 2px solid #8888;
+    border-bottom: 2px solid #8888;*/
+}
+
 
 
 /*  Slider  */

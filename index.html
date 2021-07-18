@@ -39,8 +39,11 @@
             <li class="nav-item text-white">
               <a class="nav-link text-white" href="#Ziele">Ziele</a>
             </li>
-            <li class="nav-item text-white">
+            <li class="nav-item text-white d-none d-lg-block">
               <a class="nav-link text-white dropdown-toggle" data-bs-toggle="collapse" href="#collapse_mehr">mehr</a>
+            </li>
+            <li class="nav-item text-white d-lg-none">
+              <a class="nav-link text-white"  href="./motivation.html">mehr</a>
             </li>
            <li class="d-flex align-items-center mt-2 mt-lg-0  mx-lg-4">
              <a href="https://github.com/PrennerProducts" class="icon-link " target="_blank">
@@ -63,21 +66,20 @@
     </nav>
   <!-- Megamenü-->
 
-  <div class="container position-absolut start-0 end-0">
+  <div class="mega container position-fixed start-0 end-0 d-none d-lg-block">
     <div class="collapse" id="collapse_mehr">
-          <div class="row g-0 p-4 bg-white">
-                <div class="col-4">
-                  <img src="Image/logo-klein.png" class="img-fluid" alt="Logo">
+          <div class="row g-0 p-3 bg-white">
+                <div class="col-3">
+                  <img src="Image/logo-klein.png" class="img-fluid" alt="Logo"/>
                 </div>
-                        <div class="col-4 ps-5">
-                          <b class="fs-5">Bewerbung bei Cura</b>
-                            <ul class=" list-group fs-6">
-                              <li class="list-group-item border-0 px-0 py-1"><a href="#">Bewerbung</a></li>
-                              <li class="list-group-item border-0 px-0 py-1"><a href="#">Lebenslauf</a></li>
-                              <li class="list-group-item border-0 px-0 py-1"><a href="/motivation.html">Motivationsschreiben</a></li>
+                        <div class="col-3 ps-5">
+                          <b class="fs-5">Noch nicht überzeugt?</b>
+                            <ul class="list-group fs-6 pt-3">
+                              <li class="list-group-item border-0 px-0 py-2"><a class=" mega-link" href="/motivation.html">mehr über mich</a></li>
+                              <li class="list-group-item border-0 px-0 py-2"><a class=" mega-link" href="#">Q&A</a></li>
                             </ul>
                         </div>
-                            <div class="col-4">
+                      <!--      <div class="col-3">
                               <b class="fs-5">Wo finden Sie mich nicht?</b>
                               <ul class=" list-group fs-6">
                                 <li class="list-group-item border-0 px-0 py-1"><a href="#">Facebook</a></li>
@@ -85,6 +87,19 @@
                                 <li class="list-group-item border-0 px-0 py-1"><a href="#">Twitter</a></li>
                               </ul>
                             </div>
+                      -->
+
+                            <div class="col-3">
+                              <b class="fs-5">Downloads</b>
+                              <ul class=" list-group fs-6">
+                                <li class="list-group-item border-0 px-0 py-1"><a href="#">Motivationsschreiben</a></li>
+                                <li class="list-group-item border-0 px-0 py-1"><a href="#">Lebenslauf</a></li>
+                                
+                              </ul>
+                            </div>
+
+                            
+                        
           </div>
     </div>
 </div>
@@ -119,7 +134,7 @@
       <div class="carousel-item active" data-bs-interval="5000">
         <div style="background-image: url('Image/great.jpg')"
          class="slider-image"></div>
-      </div>
+      </div><!--
       <div class="carousel-item ">
         <div style="background-image: url('Image/code2.jpg')"
          class="slider-image"></div>
@@ -127,7 +142,7 @@
       <div class="carousel-item">
         <div style="background-image: url('Image/domore.jpg')"
          class="slider-image"></div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <div style="background-image: url('Image/laptop.jpg')"
          class="slider-image"></div>
@@ -157,7 +172,7 @@
     
                   <!--mein Bild rund-->
                   <div class="my-rund">
-                    <div class="lukas-rund-image float-lg-start mx-auto mx-lg-5 " style="background-image: url('./Image/ichich.JPG');">
+                    <div class="lukas-rund-image float-lg-start mx-auto mx-lg-5 " style="background-image: url('./Image/cap.JPG');">
                     </div>
                   </div>
                   <h2 class="limegreen fw-bold"><br>Lukas Prenner</h2>
@@ -191,11 +206,10 @@
         class="card-image"></div>
         <div class="card-body">
           <h5 class=" card-title fw-bold fs-2">FPV</h5>
-          <p class="card-text">Meine Faszination für Elektrotechnik und Elektronik brachte mich in den Drohnenbau und in das First Person View Hobby. Mittlerweile bin ich ein professioneller Drohnenpilot und Experte im Funktechnik bereich. Zu den Anwendungen gehören:</p>
+          <p class="card-text">Meine Faszination für Elektrotechnik und Elektronik brachte mich in den Drohnenbau und in das First Person View Hobby. Mittlerweile bin ich ein professioneller Drohnenpilot und Experte im Funktechnik Bereich. Zu den Anwendungen gehören:</p>
           <ul>
           <li>Werbevideos</li>
           <li>Inspektionsflüge</li>
-          <li>Überwachungsflüge</li>
           <li>Raceing</li>
           <li>Long Range Flüge</li>
         </ul>
@@ -206,7 +220,7 @@
         class="card-image"></div>
         <div class="card-body">
           <h5 class=" card-title fw-bold fs-2">Video Editing</h5>
-          <p class="card-text">Videoedditing ist eine meiner großen Leidenschaften. Nicht nur das Filmen, sonder vor allem das anschließende Editieren bereitet mir große Freude. Derzeit verwede ich Davinci Resolve für das Editing, Cut, Colorgradeing und Soundimplementierung.</p>
+          <p class="card-text">Videoedditing ist eine meiner Leidenschaften. Nicht nur das Filmen, sonder vor allem das anschließende Editieren bereitet mir große Freude. Zum schneiden verwede ich Davinci Resolve.</p>
           
         </div>
       </div>
@@ -222,9 +236,8 @@
       <ul>
       <li>Entwicklung einer Innovation / Applikation die das Leben erleichtert und die Welt verbessert </li>
       <li>Verantwortung übernehmen und einen Beitrag an die Gesellschaft leisten</li>
-      <li>Ein Unternehmen aufbauen und verantwortung für Mitarbeiter übernehemen</li>
-      <li>Für mich und meine Familie finanzielle Freiheit erlangen</li>
-      <li>Kinder bekommen um genetische Unsterblichkeit zu erlangen</li>
+      
+      
     </ul>
 
     <h4 class="limegreen fw-bold">Kurzzeitziele</h4>
@@ -232,7 +245,8 @@
       <li>ausgezeichneter Erfolg Berufsreifeprüfung</li>
       <li>Job in IT</li>
       <li>Werksstudentenstelle bei Cura</li>
-      <li>Heizungssteuerungsprojekt umsetzen</li>
+      <li>JavaScript erlernen</li>
+      <li>HTML, CSS und Bootstrap vertiefen</li>
     </ul>
       
     
