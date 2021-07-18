@@ -8,11 +8,14 @@ body {
 b{
     color: black
 }
+h5{
+    color: limegreen;
+}
 .limegreen{
     color: limegreen;
 }
 
-.navbar, 
+
 .carousel {
     border-bottom: 2px solid #8888;
 }
@@ -35,20 +38,31 @@ b{
     color:white;
 }
 
+
 /*Megamenü*/
 
 
 
 
+.row {
+    position: fixed;
+    left: 28%;
+    z-index: 100000000;
+}
+
 
 /*  Slider  */
+
+
+
+
 
 .slider-image{
 width: 100vw;
 height: 70vh;
 background-position: center;
 background-size:cover;
-z-index: 1;
+
 }
 
 
@@ -88,6 +102,8 @@ z-index: 1;
     border-radius: 50%;
     background-position: center;
     background-size: cover;
+    position: relative;
+    z-index: 1;
     
 }
 
@@ -96,10 +112,11 @@ z-index: 1;
     font-family: Sans-serif;
     font-size: 1rem;
     text-align: center;
-    border top: 1px solid  #888;
-    
+    border-top: 1px solid  #888;
     position: center;
     bottom: 0;
+
+  
 
 
 
