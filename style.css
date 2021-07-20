@@ -18,6 +18,7 @@ h5{
 
 .carousel {
     border-bottom: 2px solid #8888;
+    border-top: 2px solid #8888;
 }
 /* Naviagation */
 
@@ -77,6 +78,38 @@ color: limegreen;
     border-bottom: 2px solid #8888;*/
 }
 
+/*Willkommens Animation*/
+
+.wrapper {
+    height: 7vh;
+    /*Zentrierung*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .typing-demo {
+    width: 38ch;
+    animation: typing 4s steps(40), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 3em;
+    color: white;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
 
 
 /*  Slider  */
@@ -121,6 +154,7 @@ background-size:cover;
         flex-flow: column wrap;
     }
 }
+
 
 
 /* WhoAmI  */
