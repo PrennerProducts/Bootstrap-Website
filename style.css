@@ -60,7 +60,10 @@ color: white;
 }
 
 /*Megamenü*/
-
+.logo{
+    position: relative;
+    left: 15%;
+}
 
 .mega-link:active,
 .mega-link:hover {
@@ -212,6 +215,11 @@ display: block;
     
 }
 
+.btn{
+    
+    background-color: limegreen;
+    
+}
 
 /* Footer  */
 .footer {
@@ -226,4 +234,6 @@ display: block;
 }
 
 
+
+/*mehr*/
 
