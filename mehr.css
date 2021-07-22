@@ -39,11 +39,8 @@ html {
 
 #main {
   background: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.3), 
-      rgba(0, 0, 0, 0.3)
-    ),
-    url("https://i.ibb.co/0y1tFf7/work-1627703-1920.jpg");
+    
+    url("/Image/laptop4.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -81,7 +78,7 @@ html {
 }
 
 #logo-image {
-  width: 5%;
+  width: 10%;
   margin-right: 10px;
  
 }
@@ -433,7 +430,7 @@ html {
 }
 
 .about-photo {
-  width: 40%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -442,7 +439,7 @@ html {
 
 .about-photo-img {
   position: relative;
-  width: 75%;
+  width: 80%;
   height: 25%;
   clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
   margin-top: 43px;

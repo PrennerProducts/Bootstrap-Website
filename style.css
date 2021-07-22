@@ -192,12 +192,7 @@ display: block;
 }
 
 
-.bildmittext span{
-    position: relative;
-    bottom:
-    text-align: center;
-    color: black;
-}
+
 
 .zieletext {
     background-image: url(Image/goals.jpg);
@@ -211,9 +206,6 @@ display: block;
 }
 
 
-.card{
-    
-}
 
 .btn{
     
