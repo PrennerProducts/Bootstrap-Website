@@ -23,21 +23,23 @@
 
     <div id="main">
       <header id="header">
-        <div id="logo">
-          <img id="logo-image" src="/Image/logo-weiss.png" alt="logo" />
+        
+        <div id="logo" class="logo">
+          <a href="./index.html">
+          <img id="logo-image" src="./Image/logo-weiss.png" alt="logo" /></a>
           <span id="logoText"></span>
         </div>
       
-        <nav id="navbar">
+        <nav id="navbar" class="d-none d-md-flex">
           <ul id="menu">
             <li class="menuBox">
               <a class="menuLink" href="#main">Home</a>
             </li>
             <li class="menuBox">
-              <a class="menuLink" href="#about-me">Info</a>
+              <a class="menuLink" href="#about-me">About</a>
             </li>
             <li class="menuBox">
-              <a class="menuLink" href="#contact">Kontakt</a>
+              <a class="menuLink" href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -76,16 +78,21 @@
     
     
     <section id="about-me">
-      <h2 class="topic">Mehr über mich</h2>
+      <h2 class="topic">More about me</h2>
       <div class="container about">
         <ul id="timeline">
           <li class="timeBox">
-            <h3 class="time-title">Meine Motivation</h3>
+            <h3 class="time-title">My Motivation</h3>
             <p class="text">
-              Die Werkstudentenstelle ist die perfekte Ergänzung zu meinem Studium, Digital Business & Software Engineering, das ich im September am MCI antreten darf.
-              Schon seit meiner Kindheit bin ich von Computern begeistert und habe mir einige Skriptsprachen darunter HTML, CSS und Python selbst beigebracht. Ich habe mich dazu entschlossen meine Karriere in der Krankenpflege zu beenden, um meiner waren Leidenschaft nachzugehen und Softwareentwickler zu werden. Es ist mir ein besonderes Anliegen ein solides Fundament an Fachwissen zu erlangen, damit ich Projekte professionell in der Praxis umsetzen zu kann. Ich bin hochmotiviert nicht nur im Studium, sondern auch in der Praxis in der IT tätig zu werden. Nach zwei Jahren als nebenberuflicher Selbständiger im E-Commerce wurde mir klar, dass meine wahre Berufung im Digitalen Bereich liegt.
-              Da ich derzeit noch kein JavaScript beherrsche, habe ich es mir zum Ziel gesetzt bis September alle Grundlagen zu beherrschen. Shopify habe ich noch nie verwendet, werde mich aber sehr schnell zurechtfinden, da ich mit dem CMS WordPress sehr vertraut bin. Ich habe mir das Auffischen meiner CSS und Bootstrap Kenntnisse als Ziel gesetzt und bereits in meine täglichen Routinen und meinen Wochenplan integriert. 
-              Leistungsbereitschaft, Kritikfähigkeit, lösungsorientiertes Denken sowie vielseitiges und lebhaftes Interesse runden mein persönliches Profil ab.
+              The working student position is the perfect complement to my degree in Digital Business & Software Engineering, which I will be able to start studying 
+              at the MCI in September. I've been enthusiastic about computers since I was a child and have taught myself some scripting languages ​​including HTML, 
+              CSS and Python. I decided to quit my nursing career to pursue my passion and become a software developer. It is particularly important to me to acquire 
+              a solid foundation of specialist knowledge so that I can implement projects professionally in practice. I am highly motivated to work in IT not only during 
+              my studies, but also in practice. After two years as a part-time self-employed person in e-commerce, I realized that my true calling was in the digital sector. 
+              Since I don't know JavaScript yet, I have set myself the goal of mastering all the basics by September. I have never used Shopify, but I will find my way
+               around very quickly as I am very familiar with the CMS WordPress. I have set myself the goal of refining my CSS and Bootstrap knowledge and have 
+               already integrated it into my daily routines and my weekly schedule. Willingness to perform,  solution-oriented thinking as well as varied and 
+            	 keen interest round off my personal profile.
               
             </p>
             <p class="text">
@@ -148,11 +155,11 @@
             </ul>
           </li>
         </ul>
-        <figure class="about-photo">
-          <img class="about-photo-img" src="/image/cap.JPG" />
+        <figure class="about-photo d-none d-lg-flex">
+          <img class="about-photo-img" src="./Image/cap.JPG" />
           <figcaption class="quote">
             <blockquote>
-              "Das Fluchen ist die einzige Sprache, die jeder Programmierer beherrscht." 
+              "Swearing is the only language every programmer knows." 
             </blockquote>
             <span class="author">Lukas Prenner</span>
           </figcaption>
@@ -163,7 +170,7 @@
     <section id="contact">
       <h2 class="topic">Contact</h2>
       <div class="container socials-container">
-        <div class="socials">
+        <div class="socials d-none d-md-flex">
           <a id="profile-link" href="https://github.com/PrennerProducts" target="_blank">
             <img class="socials-img" src="https://image.flaticon.com/icons/svg/25/25657.svg" />
           </a>
@@ -184,7 +191,7 @@
           <span class="socials-name">Instagram</span>
         </div>
         
-        <div class="socials">
+        <div class="socials d-none d-md-flex">
           <a id="profile-link" href="https://gmail.com" target="_blank">
             <img class="socials-img" src="https://image.flaticon.com/icons/svg/25/25236.svg" />
           </a>

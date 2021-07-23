@@ -38,9 +38,13 @@ html {
 }
 
 #main {
+ 
   background: 
-    
-    url("/Image/laptop4.jpg");
+  linear-gradient(
+    rgba(0, 0, 0, 0.3), 
+    rgba(0, 0, 0, 0.3)
+  ),
+  url("./Image/laptop4.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -49,7 +53,7 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: releative;
+  position: relative;
   z-index: 2;
 }
 
@@ -74,12 +78,17 @@ html {
 
 #logo {
   display: flex;
-  align-items: center;
+
+
+}
+.logo {
+position: absolute;
+left:5%;
+top: 10%;
 }
 
 #logo-image {
-  width: 10%;
-  margin-right: 10px;
+width: 20%;
  
 }
 
@@ -330,16 +339,17 @@ html {
   padding: 0;
   margin: 0;
   list-style: none;
-  width: 60%;
+  width: 95%;
   position: relative;
   padding-bottom: 25px;
 }
 
 .timeBox {
   position: relative;
-  margin-left: 75px;
+  margin-left: 28%;
+  margin-right: 0%;
   margin-bottom: 25px;
-  padding: 0px 20px;
+  padding: 0px 0px;
 }
 
 .timeBox::before {
@@ -407,6 +417,7 @@ html {
 
 .dotted-container {
   display: flex;
+  
 }
 
 .dotted {
@@ -429,6 +440,14 @@ html {
   width: 90%;
 }
 
+
+@media (max-width: 800px) {
+  .about-lukas {
+  display: none !important;
+  }
+  }
+
+
 .about-photo {
   width: 80%;
   display: flex;
@@ -436,6 +455,7 @@ html {
   align-items: center;
   margin: 0;
 }
+
 
 .about-photo-img {
   position: relative;
