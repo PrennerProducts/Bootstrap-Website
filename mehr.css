@@ -78,9 +78,11 @@ html {
 
 #logo {
   display: flex;
-
-
 }
+
+
+
+
 .logo {
 position: absolute;
 left:5%;
@@ -446,6 +448,7 @@ width: 20%;
   display: none !important;
   }
   }
+
 
 
 .about-photo {
