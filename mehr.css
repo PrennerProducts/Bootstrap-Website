@@ -41,8 +41,8 @@ html {
  
   background: 
   linear-gradient(
-    rgba(0, 0, 0, 0.3), 
-    rgba(0, 0, 0, 0.3)
+    rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 0.1)
   ),
   url("./Image/laptop4.jpg");
   background-size: cover;
@@ -79,7 +79,6 @@ html {
 #logo {
   display: flex;
 }
-
 
 
 
@@ -264,68 +263,7 @@ width: 20%;
   margin: 0 auto;
 }
 
-.grid-portfolio {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 200px);
-  grid-gap: 10px;
-  padding: 25px 0px;
-}
 
-.gridBox {
-  position: relative;
-  background: #bdc3c7;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bigBox {
-  grid-column: span 2;
-  grid-row:  span 2;
-}
-
-.longBox {
-  grid-column: span 2;
-}
-
-.portfolio-image {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 5px;
-  z-index: 1;
-}
-
-.project-tile{
-  position: absolute;
-  z-index: 3;
-  font-size: 1.25em;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  visibility: hidden;
-}
-
-.gridBox:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 2;
-  visibility: hidden;
-}
-
-.gridBox:hover.gridBox:after,
-.gridBox:hover > .project-tile{
-  cursor: pointer;
-  visibility: visible;
-}
 
 #about-me {
   background: #241D14;
@@ -569,20 +507,7 @@ footer {
     justify-content: center;
     grid-gap: 10px 0px;
   }
-  
-  .gridBox {
-    border-radius: 0;
-  }
-  
- .bigBox,
- .longBox{
-    grid-column: auto !important;
-    grid-row: auto !important;
-  }
-  
-  .portfolio-image {
-    padding: 2px;
-  }
+
   
   .container {
     width: 100%;
